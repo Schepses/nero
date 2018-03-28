@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Nero
+Comment=Nero P2P Cryptocurrency
+Comment[fr]=Nero, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nero, eşten eşe kriptografik sanal para birimi
+Exec=nero-qt %u
+Terminal=false
+Type=Application
+Icon=nero128
+MimeType=x-scheme-handler/nero;
+Categories=Office;Finance;

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/nero_bg.qm</file>
+        <file alias="de">locale/nero_de.qm</file>
+        <file alias="en">locale/nero_en.qm</file>
+        <file alias="es">locale/nero_es.qm</file>
+        <file alias="fi">locale/nero_fi.qm</file>
+        <file alias="fr">locale/nero_fr.qm</file>
+        <file alias="it">locale/nero_it.qm</file>
+        <file alias="ja">locale/nero_ja.qm</file>
+        <file alias="pl">locale/nero_pl.qm</file>
+        <file alias="pt">locale/nero_pt.qm</file>
+        <file alias="ru">locale/nero_ru.qm</file>
+        <file alias="sk">locale/nero_sk.qm</file>
+        <file alias="sv">locale/nero_sv.qm</file>
+        <file alias="vi">locale/nero_vi.qm</file>
+        <file alias="zh_CN">locale/nero_zh_CN.qm</file>
+        <file alias="zh_TW">locale/nero_zh_TW.qm</file>
+    </qresource>
+</RCC>

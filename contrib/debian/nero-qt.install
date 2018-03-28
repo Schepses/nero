@@ -1,0 +1,6 @@
+usr/local/bin/nero-qt usr/bin
+share/pixmaps/nero32.xpm usr/share/pixmaps
+share/pixmaps/nero16.xpm usr/share/pixmaps
+share/pixmaps/nero128.png usr/share/pixmaps
+debian/nero-qt.desktop usr/share/applications
+debian/nero-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,22 @@
+[Unit]
+Description=Nero's distributed currency daemon
+After=network.target
+
+[Service]
+User=nerocore
+Group=nerocore
+
+Type=forking
+PIDFile=/var/lib/nerod/nerod.pid
+ExecStart=/usr/bin/nerod -daemon -pid=/var/lib/nerod/nerod.pid \
+-conf=/etc/nerocore/nero.conf -datadir=/var/lib/nerod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
